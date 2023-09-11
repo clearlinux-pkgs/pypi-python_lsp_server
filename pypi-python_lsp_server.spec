@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-python_lsp_server
-Version  : 1.7.4
-Release  : 28
-URL      : https://files.pythonhosted.org/packages/7e/56/b7c8569ab17ed75a858487d26fa5e8f489e72e8d5842107329490c6a6323/python-lsp-server-1.7.4.tar.gz
-Source0  : https://files.pythonhosted.org/packages/7e/56/b7c8569ab17ed75a858487d26fa5e8f489e72e8d5842107329490c6a6323/python-lsp-server-1.7.4.tar.gz
+Version  : 1.8.0
+Release  : 29
+URL      : https://files.pythonhosted.org/packages/7f/38/9c7196124b2b36088b8c0b83fe4c117f02dd0bfae64473b51cd09628af08/python-lsp-server-1.8.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/7f/38/9c7196124b2b36088b8c0b83fe4c117f02dd0bfae64473b51cd09628af08/python-lsp-server-1.8.0.tar.gz
 Summary  : Python Language Server for the Language Server Protocol
 Group    : Development/Tools
 License  : MIT
@@ -61,7 +61,6 @@ Requires: pypi(docstring_to_markdown)
 Requires: pypi(jedi)
 Requires: pypi(pluggy)
 Requires: pypi(python_lsp_jsonrpc)
-Requires: pypi(setuptools)
 Requires: pypi(ujson)
 
 %description python3
@@ -69,10 +68,10 @@ python3 components for the pypi-python_lsp_server package.
 
 
 %prep
-%setup -q -n python-lsp-server-1.7.4
-cd %{_builddir}/python-lsp-server-1.7.4
+%setup -q -n python-lsp-server-1.8.0
+cd %{_builddir}/python-lsp-server-1.8.0
 pushd ..
-cp -a python-lsp-server-1.7.4 buildavx2
+cp -a python-lsp-server-1.8.0 buildavx2
 popd
 
 %build
@@ -80,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1690864513
+export SOURCE_DATE_EPOCH=1694446408
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

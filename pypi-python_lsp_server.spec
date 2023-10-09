@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-python_lsp_server
-Version  : 1.8.1
-Release  : 30
-URL      : https://files.pythonhosted.org/packages/51/bf/5184e8f1bfe59239b3d08de96fbbf83fba0fb0c233e84f9b32830d4b7679/python-lsp-server-1.8.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/51/bf/5184e8f1bfe59239b3d08de96fbbf83fba0fb0c233e84f9b32830d4b7679/python-lsp-server-1.8.1.tar.gz
+Version  : 1.8.2
+Release  : 31
+URL      : https://files.pythonhosted.org/packages/23/1f/41be2a7fd29d29bad4f186e25fa28e1faa121688d18a9b84cd8eb9b6fd9a/python-lsp-server-1.8.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/23/1f/41be2a7fd29d29bad4f186e25fa28e1faa121688d18a9b84cd8eb9b6fd9a/python-lsp-server-1.8.2.tar.gz
 Summary  : Python Language Server for the Language Server Protocol
 Group    : Development/Tools
 License  : MIT
@@ -68,10 +68,10 @@ python3 components for the pypi-python_lsp_server package.
 
 
 %prep
-%setup -q -n python-lsp-server-1.8.1
-cd %{_builddir}/python-lsp-server-1.8.1
+%setup -q -n python-lsp-server-1.8.2
+cd %{_builddir}/python-lsp-server-1.8.2
 pushd ..
-cp -a python-lsp-server-1.8.1 buildavx2
+cp -a python-lsp-server-1.8.2 buildavx2
 popd
 
 %build
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1696544193
+export SOURCE_DATE_EPOCH=1696895005
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

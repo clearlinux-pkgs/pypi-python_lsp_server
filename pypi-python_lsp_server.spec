@@ -7,7 +7,7 @@
 #
 Name     : pypi-python_lsp_server
 Version  : 1.12.0
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/2b/15/b7e1577b9ca358e008b06910bf23cfa0a8be130ee9f319a262a3c610ee8d/python_lsp_server-1.12.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2b/15/b7e1577b9ca358e008b06910bf23cfa0a8be130ee9f319a262a3c610ee8d/python_lsp_server-1.12.0.tar.gz
 Summary  : Python Language Server for the Language Server Protocol

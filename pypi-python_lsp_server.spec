@@ -6,10 +6,10 @@
 # autospec commit: 94c6be0
 #
 Name     : pypi-python_lsp_server
-Version  : 1.12.1
-Release  : 40
-URL      : https://files.pythonhosted.org/packages/98/96/02fc5f696113aeebeab708abe3fbf29e235e476382d37419e661e71ce1c3/python_lsp_server-1.12.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/98/96/02fc5f696113aeebeab708abe3fbf29e235e476382d37419e661e71ce1c3/python_lsp_server-1.12.1.tar.gz
+Version  : 1.12.2
+Release  : 41
+URL      : https://files.pythonhosted.org/packages/cc/0f/3d63c5f37edca529a2a003a30add97dcce67a83a99dd932528f623aa1df9/python_lsp_server-1.12.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/cc/0f/3d63c5f37edca529a2a003a30add97dcce67a83a99dd932528f623aa1df9/python_lsp_server-1.12.2.tar.gz
 Summary  : Python Language Server for the Language Server Protocol
 Group    : Development/Tools
 License  : MIT
@@ -70,10 +70,10 @@ python3 components for the pypi-python_lsp_server package.
 
 
 %prep
-%setup -q -n python_lsp_server-1.12.1
-cd %{_builddir}/python_lsp_server-1.12.1
+%setup -q -n python_lsp_server-1.12.2
+cd %{_builddir}/python_lsp_server-1.12.2
 pushd ..
-cp -a python_lsp_server-1.12.1 buildavx2
+cp -a python_lsp_server-1.12.2 buildavx2
 popd
 
 %build
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1738881615
+export SOURCE_DATE_EPOCH=1738971803
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

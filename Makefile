@@ -1,5 +1,5 @@
 PKG_NAME := pypi-python_lsp_server
-URL = https://files.pythonhosted.org/packages/98/96/02fc5f696113aeebeab708abe3fbf29e235e476382d37419e661e71ce1c3/python_lsp_server-1.12.1.tar.gz
+URL = https://files.pythonhosted.org/packages/cc/0f/3d63c5f37edca529a2a003a30add97dcce67a83a99dd932528f623aa1df9/python_lsp_server-1.12.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
